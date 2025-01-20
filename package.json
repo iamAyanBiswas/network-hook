@@ -1,0 +1,27 @@
+{
+  "name": "random-crypto-api",
+  "version": "3.0.0",
+  "description": "This package will help devs to generate random values, numbers, strings etc.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node dist/index.js",
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamAyanBiswas/random-api.git"
+  },
+  "keywords": [
+    "random-crypto-api"
+  ],
+  "author": "Ayan Biswas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamAyanBiswas//issues"
+  },
+  "homepage": "https://github.com/iamAyanBiswas/#readme",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
