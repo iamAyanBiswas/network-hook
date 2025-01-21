@@ -1,10 +1,10 @@
 # network-hook
 
-random-crypto-api is a Typescript/Javascript library to know device network status and events.
+network-hook is a Typescript/Javascript library to know device network status and events.
 
 ## Overview
 
-A simple Typescript/JavaScript library for dynamically change site icon and title. This package allows you to run a callback function when device goes online to offline or offline to online.
+A simple Typescript/JavaScript library. This package allows you to run a callback function when device goes online to offline or offline to online.
 
 
 ## Node.js (Install)

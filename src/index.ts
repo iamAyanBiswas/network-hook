@@ -19,18 +19,20 @@ function state():string{
   else return 'offline'
 }
 
-function networkHookFunction(mood:'online'|'offline', callback:() => any): void{
+
+function onOffline(callback:() => any){
   windowError()
-  window.ononline=callback()
   window.onoffline=callback()
 }
-
-
+function onOnline(callback:() => any){
+  windowError()
+  window.ononline=callback()
+}
 
 const networkHook:networkHookTypes={
   state:state,
-  onOnline:(callback)=>{networkHookFunction('online',callback)},
-  onOffline:(callback)=>{networkHookFunction('offline',callback)}
+  onOnline:onOnline,
+  onOffline:onOffline
 }
 
 

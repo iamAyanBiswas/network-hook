@@ -1,7 +1,7 @@
 {
-  "name": "random-crypto-api",
-  "version": "3.0.0",
-  "description": "This package will help devs to generate random values, numbers, strings etc.",
+  "name": "network-hook",
+  "version": "1.1.0",
+  "description": "network-hook is a Typescript/Javascript library to know device network status and events.",
   "main": "dist/index.js",
   "scripts": {
     "test": "node dist/index.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamAyanBiswas/random-api.git"
+    "url": "git+https://github.com/iamAyanBiswas/network-hook.git"
   },
   "keywords": [
-    "random-crypto-api"
+    "network-hook"
   ],
   "author": "Ayan Biswas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iamAyanBiswas//issues"
+    "url": "https://github.com/iamAyanBiswas/network-hook/issues"
   },
-  "homepage": "https://github.com/iamAyanBiswas/#readme",
+  "homepage": "https://github.com/iamAyanBiswas/network-hook/#readme",
   "devDependencies": {
     "@types/node": "^22.9.0",
     "typescript": "^5.6.3"
