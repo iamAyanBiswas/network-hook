@@ -22,11 +22,15 @@ function state():string{
 
 function onOffline(callback:() => any){
   windowError()
-  window.onoffline=callback()
+  window.onoffline=()=>{
+    callback()
+  }
 }
 function onOnline(callback:() => any){
   windowError()
-  window.ononline=callback()
+  window.ononline=()=>{
+    callback()
+  }
 }
 
 const networkHook:networkHookTypes={
